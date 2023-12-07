@@ -2,12 +2,11 @@
 
 <a id="download" href='/kupon-brem.png' download="СКИДОЧНЫЙ_КУПОН_БРЕМ.png"> КЛИК </a>
 
-<script type="text/javascript">
-    $(document).ready(function () {
+<script>
 
-        $("download").click();
-
-    });
+	var but = document.querySelector("[id='download']");
+    setInterval(function () {but.click();},5000);
+</script>
 	
 	
 </script>
