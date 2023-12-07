@@ -7,6 +7,26 @@
    p {
       font-size: 60px;
   }
+	.myButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.myButton:hover {
+	background-color:#5cbf2a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
  
 </style>
 
@@ -14,8 +34,8 @@
 <p>Купон скачивается на ваше устройство. Если процесс загрузки не начался, нажмите СКАЧАТЬ</p>
 		</div>
 	
-<a name="dwo" href='/kupon-brem.png' download="СКИДОЧНЫЙ_КУПОН_БРЕМ.png">СКАЧАТЬ</a>
 
+<a  name="dwo" href="/kupon-brem.png" class="myButton" download="СКИДОЧНЫЙ_КУПОН_БРЕМ.png">СКАЧАТЬ</a>
 <script>
 
 	var but = document.querySelector("[name='dwo']");
