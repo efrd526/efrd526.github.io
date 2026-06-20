@@ -1,5 +1,5 @@
 #google admob
-google.com, pub-5683517974486841, DIRECT, f08c47fec0942fa0
+google.com, pub-8269409268646698, DIRECT, f08c47fec0942fa0
 #yandex direct
 yandex.com, 66124744, DIRECT 		
 improvedigital.com, 2031, RESELLER
